@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lamg = "ru">
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Семестровая работа</title>
+        <link rel="stylesheet" href="style/styles.css">
     </head>
     <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="pages/news.html">Новости</a></li>
-                <li><a href="pages/practices.html">Практики</a></li>
-                <li><a href="pages/goods.html">Товары</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <div id="content">
-            <p>Информация об авторе</p>
-            <img src="images/photo.png" alt="Фото автора" width="200"
-    height="250">
-            <p>Иванов Иван Иванович</p>
-            <p>ЭФБО-00-00</p>
-            <p>Обо мне: Я родился в Москве в 70-м на краю города. Глупость рано
-    ударила в голову. В четыре активно ругался.
-    Потом школа, форма, драки, клей. Так я становился сильней. Воровал деньги в
-    раздевалке.</p>
-            <div>Навык 1</div>
-            <div>Навык 2</div>
-            <div>Навык 3</div>
-            <div>Навык 4</div>
-            <div>
-                Мой опыт работы:
-                <div>
-                    Опыт 1<br>
-                    Работал фантазёром. Сочинял и праздновал.
-                </div>
-                <div>
-                    Опыт 2<br>
-                    Работал воровством. Воровал и продавал.
-                </div>
-                <div>
-                    Опыт 3<br>
-                    Работал рэпером. Читал и пел.
-                </div>
-            </div>
-        </div>
-        <div id="footer">Футер</div>
-    </body>
-</html>
+        <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+        <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link"
+        href="index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link"
+        href="pages/news.html">Новости</a></li>
+        <li class="nav-item"><a class="nav-link"
+        href="pages/practices.html">Практики</a></li>
+        <li class="nav-item"><a class="nav-link"
+        href="pages/goods.html">Товары</a></li>
+        <li class="nav-item"><a class="nav-link"
+        href="pages/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="content">
+    <div class="profile-header">
+        <h1 class="profile-title">Информация об авторе</h1>
+         <img class="profile-photo" src="images/photo.png" alt="Фото
+автора">
+ <h2 class="profile-name">Крестин Кирилл Борисович</h2>
+ <p class="profile-group">ЭФБО-05-24</p>
+ </div>
+
+ <div class="about-me">
+ <p>Обо мне: Родился в Москве в 1970-м — ну, или где-то между патчами 6.88 и 7.00, сложно сказать. С ранних лет понял: реальный мир — это баг, а Dota 2 — единственный патч, который хоть как-то всё объясняет. В четыре года уже знал, что такое «фид», хотя мама думала, что это новая каша. Школа? Пропускал ради турниров по локалке. Форма? Носил только худи с логотипом Team Secret — и то, пока не превратилось в артефакт из старых времён. Драки? Только в чате после 0/10 на Anti-Mage. Клей? Да, меня пытались «воспитать», но я уже был в MMR-трансе.</p>
+</div>
+
+<div class="skills-container">
+  <div class="skill-tag">12k+ часов в Dota 2</div>
+  <div class="skill-tag">Мастер микро-управления (и чайником)</div>
+  <div class="skill-tag">Эксперт по ночным рейкам до 6 утра</div>
+  <div class="skill-tag">Профессиональный игнорщик солнечного света</div>
+</div>
+
+<div class="experience-section">
+  <h2 class="section-title">Мой опыт работы</h2>
+  
+  <div class="experience-card">
+    <h3 class="experience-title">Соло-Мидер / Главный по Дому</h3>
+    <p class="experience-desc">Отвечал за контроль линии, фарм, а также за то, чтобы в холодильнике хотя бы раз в неделю появлялась еда. Специализация: Invoker в жизни, доширак в реальности.</p>
+  </div>
+  
+  <div class="experience-card">
+    <h3 class="experience-title">Аналитик по Рейтинговым Провалам</h3>
+    <p class="experience-desc">Исследовал причины падения MMR с научной точностью: «слив», «токсичный саппорт», «кошка на клавиатуре», «жизнь вообще». Все отчёты заканчивались фразой: «Завтра начну играть нормально».</p>
+  </div>
+  
+  <div class="experience-card">
+    <h3 class="experience-title">Контент-мейкер (в голове)</h3>
+    <p class="experience-desc">Планировал стримы, записывал клипы, мечтал о подписчиках… но так и не вышел из меню «Найти матч». Зато идеально выучил все фразы Pudge наизусть — на всякий случай.</p>
+  </div>
+</div>
